@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-function usePreviousValue(value) {
+export default function usePreviousValue(value) {
   const ref = useRef();
 
   // useEffect() will not be invoked until calling component has been rendered
